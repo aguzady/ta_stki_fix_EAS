@@ -1,0 +1,19 @@
+Komputer sudah merupakan alat bantu yang tergolong penting saat ini, kita ambil salah satu contoh pada kegiatan perkantoran, tentunya dengan adanya komputer maka pekerjaan dapat diselesaikan dengan lebih cepat. Sebagai pengguna atau pemakai komputer tentunya kita juga pernah mengalami masalah dengan komputer. Hal tersebut dapat diakibatkan adanya kesesuaian dari komponen dasar komputer itu sendiri yang biasanya berkaitan dengan Software (perangkat lunak atau aplikasinya), Hardware (perangkat keras) atau Brainware (si pemakai komputer).
+
+Pengertian Troubleshooting Komputer
+Dalam dunia komputer, segala sesuatu masalah yang berhubungan dengan komputer disebut Troubleshooting dan timbulnya masalah dalam komputer tentu ada sebabnya. Pada kesempatan ini kita akan sedikit belajar untuk mendeteksi masalah pada komputer Anda terutama yang berhubungan dengan Hardware.
+Untuk permasalahan dengan Software sebaiknya Anda lakukan pendeteksian sederhana dahulu seperti pemeriksaan file-file yang berhubungan dengan Software atau spesifikasi permintaan (requirement) dari Software. Apabila permasalahannya cukup rumit, sebaiknya Anda install ulang saja Software tersebut, karena akan terlalu rumit untuk memperbaiki sebuah Software, sedangkan untuk permasalahan dengan Brainware, penulis hanya dapat memberikan saran “istirahat dulu deh, he…”.
+
+Teknik dalam Troubleshooting
+Terdapat dua macam teknik dalam mendeteksi permasalahan dalam komputer, yaitu teknik Forward dan teknik Backward. Untuk lebih mengenal kedua teknik tersebut, ada baiknya kita bahas terlebih dahulu definisi dari masing-masing teknik tersebut.
+1. Teknik Forward
+Sesuai dengan namanya, maka dalam teknik ini segala macam permasalahan dideteksi semenjak awal komputer dirakit dan biasanya teknik ini hanya digunakan oleh orang-orang dealer komputer yang sering melakukan perakitan komputer. Pada teknik ini hanya dilakukan pendeteksian masalah secara sederhana dan dilakukan sebelum komputer dinyalakan (dialiri listrik). Untuk mempermudah silakan simak contoh berikut :
+Setelah komputer selesai dirakit, maka dilakukan pemeriksaan pada semua Hardware yang telah terpasang, misalnya memeriksa hubungan dari kabel Power Supply ke soket power pada Motherboard.
+Untuk casing ATX, kita periksa apakah kabel Power Switch sudah terpasang dengan benar.
+dsb.
+
+2. Teknik Backward
+Hampir sama dengan teknik sebelumnya, teknik Backward adalah teknik untuk mendeteksi kesalahan pada komputer setelah komputer dinyalakan (dialiri listrik). Teknik lebih banyak digunakan karena pada umumnya permasalahan dalam komputer baru akan timbul setelah “jam terbang” komputernya sudah banyak dan ini sudah merupakan hal yang wajar. Dapat kita ambil beberapa contoh sebagai berikut :
+Floppy Disk yang tidak dapat membaca disket dengan baik.
+Komputer tidak mau menyala saat tombol power pada casing ditekan.
+dsb

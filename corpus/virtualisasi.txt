@@ -1,0 +1,50 @@
+Pengertian Virtualization 
+Dalam ilmu komputer, virtualisasi (bahasa Inggris: virtualization) adalah istilah umum yang mengacu kepada abstraksi dari sumber daya komputer. Definisi lainnya adalah "sebuah teknik untuk menyembunyikan karakteristik fisik dari sumber daya komputer dari bagaimana cara sistem lain, aplikasi atau pengguna berinteraksi dengan sumber daya tersebut. Hal ini termasuk membuat sebuah sumber daya tunggal (seperti server, sebuah sistem operasi, sebuah aplikasi, atau peralatan penyimpanan terlihat berfungsi sebagai beberapa sumber daya logikal; atau dapat juga termasuk definisi untuk membuat beberapa sumber daya fisik (seperti beberapa peralatan penyimpanan atau server) terlihat sebagai satu sumber daya logikal."[1]
+Istilah virtualisasi sudah digunakan secara luas sejak 1960-an, dan telah diaplikasikan kepada beberapa aspek komputer—dari keseluruhan sistem komputer sampai sebuah kemampuan atau komponen individu. Secara umum semua teknologi virtualisasi mengacu kepada "menyembunyikan detail teknis" melalui enkapsulasi.
+Virtualization adalah salah satu teknologi yang dapat membagi satu server menjadi beberapa Operating System yang dapat berjalan secara bersama-sama.
+Virtualisasi juga bisa diartikan sebagai pembuatan suatu bentuk atau versi virtual dari
+sesuatu yang bersifat fisik, misalnya sistem operasi, perangkat
+storage/penyimpanan data atau sumber daya jaringan.
+
+Virtualisasi bisa diimplementasikan kedalam berbagai bentuk, antara lain (Harry
+Sufehmi, Pengenalan Virtualisasi, 20090607):
+1. Network Virtualization : VLAN, Virtual IP (untclustering), Multilink
+2. Memory Virtualization : pooling memory dari node-node di cluster
+3. Grid Computing : banyak komputer = satu
+4. Application Virtualization : Dosemu, Wine
+5. Storage Virtualization : RAID, LVM
+6. Platform Virtualization virtual computer
+
+Keuntungan Penggunaan Virtualisasi
+1.	Pengurangan Biaya Investasi Hardware. Investasi hardware dapat ditekan lebih rendah karena virtualisasi hanya mendayagunakan kapasitas yang sudah ada. Tak perlu ada penambahan perangkat komputer, server dan pheriperal secara fisik. Kalaupun ada penambahan kapasitas harddisk dan memori, itu lebih ditujukan untuk mendukung stabilitas kerja komputer induk, yang jika dihitung secara finansial, masih jauh lebih hemat dibandingkan investasi hardware baru.
+2.	Kemudahan Backup & Recovery. Server-server yang dijalankan didalam sebuah mesin virtual dapat disimpan dalam 1 buah image yang berisi seluruh konfigurasi sistem. Jika satu saat server tersebut crash, kita tidak perlu melakukan instalasi dan konfigurasi ulang. Cukup mengambil salinan image yang sudah disimpan, merestore data hasil backup terakhir dan server berjalan seperti sedia kala. Hemat waktu, tenaga dan sumber daya.
+3.	Kemudahan Deployment. Server virtual dapat dikloning sebanyak mungkin dan dapat dijalankan pada mesin lain dengan mengubah sedikit konfigurasi. Mengurangi beban kerja para staff IT dan mempercepat proses implementasi suatu sistem
+4.	Mengurangi Panas. Berkurangnya jumlah perangkat otomatis mengurangi panasnya ruang server/data center. Ini akan berimbas pada pengurangan biaya pendinginan/AC dan pada akhirnya mengurangi biaya penggunaan listrik
+5.	Mengurangi Biaya Space. Semakin sedikit jumlah server berarti semakin sedikit pula ruang untuk menyimpan perangkat. Jika server ditempatkan pada suatu co-location server/data center, ini akan berimbas pada pengurangan biaya sewa
+6.	Kemudahan Maintenance & Pengelolaan. Jumlah server yang lebih sedikit otomatis akan mengurangi waktu dan biaya untuk mengelola. Jumlah server yang lebih sedikit juga berarti lebih sedikit jumlah server yang harus ditangani
+7.	Standarisasi Hardware. Virtualisasi melakukan emulasi dan enkapsulasi hardware sehingga proses pengenalan dan pemindahan suatu spesifikasi hardware tertentu tidak menjadi masalah. Sistem tidak perlu melakukan deteksi ulang hardware sebagaimana instalasi pada sistem/komputer fisik
+8.	Kemudahan Replacement. Proses penggantian dan upgrade spesifikasi server lebih mudah dilakukan. Jika server induk sudah overload dan spesifikasinya tidak mencukupi lagi, kita bisa dengan mudah melakukan upgrade spesifikasi atau memindahkan virtual machine ke server lain yang lebih powerful
+Kerugian Penggunaan Virtualisasi
+
+1.	Satu Pusat Masalah. Virtualisasi bisa dianalogikan dengan menempatkan semua telur didalam 1 keranjang. Ini artinya jika server induk bermasalah, semua sistem virtual machine didalamnya tidak bisa digunakan. Hal ini bisa diantisipasi dengan menyediakan fasilitas backup secara otomatis dan periodik atau dengan menerapkan prinsip fail over/clustering
+2.	Spesifikasi Hardware. Virtualisasi membutuhkan spesifikasi server yang lebih tinggi untuk menjalankan server induk dan mesin virtual didalamnya
+3.	Satu Pusat Serangan. Penempatan semua server dalam satu komputer akan menjadikannya sebagai target serangan. Jika hacker mampu menerobos masuk kedalam sistem induk, ada kemungkinan ia mampu menyusup kedalam server- server virtual dengan cara menggunakan informasi yang ada pada server induk
+
+
+Konsep Virtualiasasi
+Walaupun konsep virtualisasi ini sudah dikembangkan sejak akhir tahun 60-an, namun kenyataannya teknologi ini masih belum dikenal secara luas hingga saat ini. Hal ini mungkin karena masyarakat IT khususnya di Indonesia sudah merasa puas degan server yang mereka gunakan. Microsoft sendiri sejak tahun 2004 sudah mulai memperkenalkan Virtual PC dan Virtual Server ataupun VMWare. Walaupun konsep virtualisasi sangat berbeda dibandingkan dengan Virtual PC ataupun Virual Server.Virtualization sudah diperkenalkan sejak puluhan tahun lalu, yang waktu itu kalangan industri masih memanfaatkan komputer mainframe di akhir akhir tahun 60an. Ketika itu komputer masih memanfaatkan Punch card dan juga IBM 360 mainframe.
+Sejalan dengan berkembangnya teknologi, perubahan pun berlanjut dan komputer semakin ramping dan bukan lagi merupakan barang mewah yang hanya dimiliki oleh perusahaan atau orang tertentu saja.Dengan pesatnya perkembangan teknologi dan semakin derasnya arus globalisasi, persaingan bisnis berbasis IT juga semakin ketat. Melihat kenyataan ini, raksasa software dunia, Microsoft menghadirkan teknologi server yang mendukung Virtualization. Fitur canggih ini ada dalam Windows Server 2008 64 bit yang kini sudah mulai banyak diimplementasikan. Konsep virtualisasi yang langsung terintegrasi dengan role server, yaitu Windows Server Virtualization atau lebih dikenal dengan Hyper-V. Hyper-V akan menjadi sebuah role dalam sistem operasi Window Server 2008 R2 dengan mengoptimalkan virtualisasi sistem operasi server. Seperti diketahui Hyper-V tersebut mendukung virtulisasi server baik untuk versi 64 bit.
+
+Arsitektur
+Sebuah arsitektur akan sangat menentukan ketika sebuah konsep diimplementasikan. Demikian juga dengan arsitektur Windows Server Virtualization sangat berbeda dibandingkan dengan arsitektur Virtual PC, Virtual Server 2005, ataupun VMWare. Dalam hal ini konsep virtualisasi di Windows Server 2008 R2 memperkenalkan Hypervisor dan mengadopsi konsep microkernelized. Implementasi dari microkernelized memungkinkan sebuah instance virtual machine berperan sebagai partisi parent daninstance yang lain sebagai partisi child.
+
+Semua instance virtual machine akan berjalan diatas hypervisor. Setiap partisi dapat memanfaatkan satu atau lebih prosesor, hal ini tentu saja jika menggunakan prosesor kelas dual core atau quad core.Partisi parentbertanggung jawab untuk mengorganisasi partisi child, dan manajemenvirtualization stack. Partisi parent juga bisa disebut sebagai partisi rootkarena partisi ini dibuat pertama kali saat inisialisasi hardware server. Partisiroot adalah pusat dari power management, organisasi hardware, dan manajemen hypervisor. Peran partisi parent sebagai virtualization stacksehingga software component berkerja diatas hypervisor dan berkerja bersama untuk mendukung virtual machine di system. Virtualization stackberkomunikasi dengan hypervisor dan melakukan semua fungsi virtualisasi. Partisi parent pun dianggap sebuah instance, sehingga IT Administrator dapat dengan mudah mengubah sebuah child menjadi parent jika dibutuhkan.
+
+Penggabungan Server
+Dengan semakin banyaknya perusahaan yang tersambung dalam jaringan, dapat dipastikan resiko serangan terhadap mesin akan meningkat karena banyak port yang harus di buka, oleh karena itu semua service dapat menerima client request.
+Patching terkadang menjadi hal yang sangat menyusahkan, jika anda mengupdate suatu service akan membutuhkan restart dan mengorbankan service yang lain.Dengan Virtualization, bagaimanapun dapat menggabungkan beberapa server role sebagai virtual machine yang berjalan di sebuah mesin secara terpisah.
+Hal ini menurunkan space tempat yang dibutuhkan server dan memaksimalkan utilization server, dan setiap role dapat berjalan di sebuah isolasi virtual sehingga akan aman dan mudah untuk di atur atau dimanage. Dan jika anda menggabungkan virtual server ke dalam enterprise class server hardware yang menggunakan RAID dan hot-swappable component, maka anda dapat merduce down time dan membuat hardware anda menjadi efisien.
+
+Parent
+Akan menjadi sebuah sistem yang sangat menarik bila Server Core digunakan sebagai parent dalam host system yang akan mengimplementasikan teknologi Windows Server Virtualization . Penggunaan Server Core sebagai parent system akan memaksimalkan resources server untuk instance child operating system.
+Desain tersebut tentu akan memaksimalkan utilisasi server tersebut, karena parent tidak membutuhkan alokasi hardware yang besar, mengingat Server Core (parent) tidak membutuhkan hard disk space selayaknya instance Windows Server full version. IT Administrator pun tidak perlu khawatir dengan organisasi instance dengan menggunakan Server Core sebagai parent, karena Server Core dapat diorganisasi dengan menggunakan Microsoft Management Console (MMC).

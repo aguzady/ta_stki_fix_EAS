@@ -1,0 +1,35 @@
+ADO.NET merupakan teknologi pengaksesan data universal yang terbaru berdasarkan prinsip tanpa koneksi(Connectionless Principle) yang dirancang untuk mempermudah batasan koneksi.
+Ketika kita membuat aplikasi terdistribusi, aplikasi hanya terhubung ke database beberapa saat guna mengakses atau mengupdate data yang ada di server, lalu di putus.
+
+ADO.NET adalah data akses komponen dari Microsoft.NET framework. ADO.NET memiliki kemampuan tinggi untuk menangani data format XML, didesain dengan arsitektur terputus (disconected architecture) sangat cocok untuk membangun aplikasi dekstop base maupun web base karena arsitekturnya yang terputus ini tidak membebani server.
+
+ADO.NET adalah teknologi akses data dari Microsoft .Net Framework. Yang menyediakan komunikasi antara sistem relasional dan non-relasional melalui seperangkat komponen. ADO.NET terdiri dari serangkaian Objek yang mengekspos layanan akses data ke lingkungan NET. ADO.NET dibangun untuk arsitektur terputus, sehingga memungkinkan benar-benar terputus dengan sumber data dapat dilakukan manipulasi melalui Objek Dataset, yang benar-benar independen dari Sumber Data(database).
+Dua komponen kunci dari ADO.NET adalah Data Providers dan DataSet. Di dalam .Net Framework terdapat tiga Penyedia untuk Akses Data. Yaitu Microsoft SQL Server Data Provider, OLEDB Data Provider dan ODBC Data Providers. SQL Server menggunakan obyek SqlConnection, OLEDB menggunakan Objek OleDbConnection dan ODBC menggunakan OdbcConnection.
+
+ADO.NET menyediakan objek untuk mengolah data . yaitu :
+1.       Objek Connection : menyediakan koneksi Sumber Data (Database)
+2.       Objek Command : digunakan untuk melakukan pernyataan SQL atau prosedur yang akan dilaksanakan pada Database
+3.       Obyek DataReader : Aliran berbasis, forward-only, read-only pengambilan hasil query dari Sumber Data (database)
+4.       Objek DataAdapter : mengisi Object Dataset dengan hasil dari Sumber Data
+
+ 	DataSet memberikan representasi terputus hasil query dari Sumber Data, dan itu benar-benar independen dari Sumber Data(database). DataSet memberikan fleksibilitas jauh lebih besar ketika berhadapan dengan manipulasi data. DataSet terdiri dari kumpulan objek DataTable yang dapat berhubungan satu sama lain dengan DataRelation. DataTable berisi koleksi DataRow dan DataCoulumn. Objek DataAdapter menyediakan sebuah jembatan antara DataSet dan Sumber Data.
+
+Data Provider mengandung beberapa object antara lain:
+•	Connection object (SqlConnection, OleDbConnection, OdbcConnection, OracleConnection)
+•	Command object (SqlCommand, OleDbCommand, OdbcCommand, OracleCommand)
+•	DataReader object (SqlDataReader, OleDbDataReader, OdbcDataReader, OracleDataReader)
+•	DataAdapter object (SqlDataAdapter, OleDbDataAdapter, OdbcDataAdapter, OracleDataAdapter).
+
+1.2 Keunggulan Dan Kelemahan Ado.Net
+      Keunggulan:
+Keuntungan Disconnected Architecture adalah kemampuan menangani multi user, dan Data Set di simpan memori berformat XML, beban bandwith jaringan komputer pun menjadi ringan karena tidak terkoneksi ke database secara terus menerus.
+Keunggulan lain dari ADO.NET adalah dukungan terhadap XML. Secara internal obyek Data Set menyimpan data di memory dalam bentuk XML.Dukungan XML ini memudahkan ADO.NET dalam melakukan proses  filtering dan sorting data yang tersimpan di memory. Dukungan XML juga memudahkan proses pengambilan data, penuilsan data kembali ke database dan mengubah ke dalam format lainnya.
+      
+      Kelemahan:
+             Adapun kelemahan yang ditimbulkan adalah keterbatasan dalam jumlah pemakai 
+      yang dapat mengakses data tersebut dalam saat yang bersamaan.                 
+
+Perlu diketahui bahwa sejak kemunculan atau releasenya ADO.NET, ADO.NET membuat lompatan yang sangat besar. Salah satunya adalah adanya dukungan penuh untuk model akses data terputus (disconnected). Mempertahankan sebuah koneksi yang tidak terputus ke database server adalah proses yang cukup mahal harganya. Terutama dari sisi database server yang mengharuskan pengalokasian sumber daya – terutama CPU dan memory – untuk koneksi tersebut. Ketika hanya ada satu koneksi saja yang perlu dipertahankan, mungkin tidak terlalu menjadi masalah, lain halnya jika koneksi yang perlu dipertahankan tidak sedikit, misalkan pada aplikasi web, tentunya jumlah memory dan CPU yang terpakai akan jauh lebih besar. Namun jika kita menggunakan metode akses data yang terputus, sumber daya yang semula terpakai dapat langsung dibebaskan dan dipakai oleh proses lain.
+Fitur lain yang meningkatkan performa akses data adalah diperkenalkannya connection pooling. Mempertahankan sebuah koneksike database adalah proses yang mahal, namun membuka dan menutup koneksi database adalah proses yang lebih mahal lagi. Connection pooling mampu mengatasi masalah ini.Ketika koneksi yang kita buat dalam program ditutup, ADO.NET  tidakl angsung menutup koneksi tersebut, namun menyimpannya dalam sebuah pool sampai jangka waktu tertentu. Pada saat itu ketika ada proses yang membutuhkan koneksi, maka ADO.NET tidak perlu lagi membuat koneksi baru, namun cukup menggunakan koneksi yang sudah tersedia di pool.
+Keunggulan lain dari ADO.NET adalah dukungan terhadap XML. Secara internal obyek DataSet menyimpan data di memory dalam bentuk XML .Dukungan XML ini memudahkan ADO.NET dalam melakukan proses filtering dan sorting data yang tersimpan di memory. Dukungan XML jugamemudahkan proses pengambilan data, penuilsan data kembalike database danmengubahkedalam format lainnya.
+

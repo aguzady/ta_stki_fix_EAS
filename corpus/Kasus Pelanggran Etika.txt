@@ -1,0 +1,27 @@
+Kasus Pelanggran Etika 1(kasus pelanggaran etika dalam dunia maya dan teknologi informasi)
+Pada tahun 1983, pertama kalinya FBI menangkap kelompok kriminal komputer The 414s(414 merupakan kode area lokal mereka) yang berbasis di Milwaukee AS. Kelompok yang kemudian disebut hacker tersebut melakukan pembobolan 60 buah komputer-komputer milik Pusat Kanker Memorial Sloan-Kettering hingga komputer milik Laboratorium Nasional Los Alamos. Salah seorang dari antara pelaku tersebut mendapatkan kekebalan karena testimonialnya, sedangkan 5 pelaku lainnya mendapatkan hukuman masa percobaan.
+Alasannya: Seiring perkembangan internet yang benar-benar pesat dan diiringi perkembangan security dan underground,ada banyak kemungkinan yang terjadi diantaranya adalah:
+1. Wanna Be A Hacker ( ingin menjadi seorang hacker ).
+2. Mendapatkan popularitas.
+3. Ingin mendapat pujian.
+Solusi: Melalui sosialisasi yang tepat dan strategi yang baik, keberadaan para individu hacker yang berkembang di masyarakat dapat dijadikan sebagai sebuah kesempatan untuk meningkatkan kinerja keamanan beraneka ragam sistem komputer yang dimiliki oleh masyarakat, agar tidak terhindar dari serangan dan penetrasi pihak luar yang dapat merugikan bangsa dan negara.
+Kasus Pelanggaran Etika 2( Pelanggaran Hak Cipta di Internet)
+Seseorang dengan tanpa izin membuat situs penyayi-penyayi terkenal yang berisikan lagu-lagu dan liriknya, foto dan cover album dari penyayi-penyayi tersebut. Contoh : Bulan Mei tahun 1997, Group Musik asal Inggris, Oasis, menuntut ratusan situs internet yang tidak resmi yang telah memuat foto-foto, lagu-lagu beserta lirik dan video klipnya.
+Alasannya: Grup musik tersebut yang dapat menimbulkan peluang terjadinya pembuatan poster atau CD yang dilakukan pihak lain tanpa izin.
+Solusi:Pelanggaran hak cipta secara online juga mencakup pembajakan DMCA, layanan internet perlindungan hak cipta yang sedang berlangsung, layanan berlangganan perlindungan hak cipta secara online, anti-pembajakan perlindungan dan pelayanan pemberitahuan pelanggaran hak cipta dan pelanggaran hak cipta situs.
+Kasus Pelanggaran Etika3(Pelanggaran Piracy)
+Piracy adalah pembajakan perangkat lunak (software)
+Apple iPhone berada di tengah kontroversi yang cukup besar awal tahun ini, di mana ketika para peneliti mengungkapkan adanya bug di sistem operasi perangkat iOS yang menyimpan data lokasi GPS dalam folder yang terlindungi. Informasi tersebut memungkinkan aparat penegak hukum, detektif swasta dan pihak lainnya menggunakan iPhone untuk melacak pengguna perangkat di setiap tempat di mana mereka berada, karena setiap saat iPhone melakukan ping ke sebuah menara seluler untuk GPS koordinat lalu disimpan pada perangkatnya. Ketika berita ini keluar, banyak protes yang mencuat dari kalangan pemilik smartphone tersebut.
+Meskipun pada saat itu banyak pengguna yang protes, sebuah survei baru dari AdaptiveMobile menemukan bahwa 65 persen dari pemilik iPhone sebetulnya tidak menyadari fakta bahwa aplikasi yang mereka download ke perangkat mereka berpotensi melanggar privasi mereka. Sebagian pengguna lainnya sebenarnya telah tertangkap karena menggunakan aplikasi untuk mengumpulkan informasi mengenai kebiasaan pengguna dan mengirimkan mereka kembali ke pengembang untuk tujuan pengiklanan. Survei AdaptiveMobile global ini dilakukan terhadap 1.024 pengguna iPhone.
+Aplikasi berbahaya pada smartphone memang bukan kasus yang benar-benar baru. Pada sistem operasi Google Android pun pernah terdapat virus dan aplikasi yang mampu mencuri data.Untuk iPhone sendiri, Proses pemeriksaan perusahaan Apple cukup ketat sebelum aplikasi disetujui untuk dijual di App Store, namun salah satu ahli keamanan mencatat bahwa masih banyak kemungkinan pengeksploitasian lubang keamanan di iOS yang berpotensi adanya pembajakan iPhone.
+Sementara AdaptiveMobile menemukan bahwa sebagian besar pengguna iPhone tidak menyadari ancaman keamanan potensial pada perangkat mereka, ia juga menemukan bahwa 7 dari 10 pengguna cenderung menganggap pelanggaran privasi yang notabene merupakan sebuah kejahatan.
+Dari sudut pandang AdaptiveMobile, kurangnya kesadaran beberapa pengguna iPhone membuat informasi mereka dapat dicuri bahkan membuat proses pencurian informasi tersebut lebih mudah. Kurangnya pengetahuan pengguna dapat menyebabkan cybercrime. Dengan mengetahui bahwa iPhone rentan terhadap masalah tersebut maka sebaiknya Anda berhati-hati dengan apa yang Anda gunakan sehingga Anda dapat menjaga data pada iPhone tetap aman. Oleh karena itu, gunakanlah aplikasi hanya dari pengembang yang Anda percaya, dan batasi jenis informasi data yang bersifat sensitif.
+alasannya:
+1. Lebih murah ketimbang membeli lisensi asli
+2. Format digiyal sehingga memudahkan untuk disalin kemedia lain
+3. Manusia cenderung mencoba hal baru
+4. Undang undang hak cipta belum dilaksanakan dengan tegas
+5. Kurangnya kesadaran dari masyarakat untuk menghargai ciptaan orang lain.
+Solusi : gunakan software aplikasi open source.
+Undang undang yang melindungi HAKI : UU no 19 tahun 2002.
+
